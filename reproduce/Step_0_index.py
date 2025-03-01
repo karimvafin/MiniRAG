@@ -12,6 +12,7 @@ from minirag import MiniRAG
 from minirag.llm.hf import(
 #    gpt_4o_mini_complete,
     hf_embed,
+    hf_model_complete
 )
 from minirag.utils import EmbeddingFunc
 from transformers import AutoModel, AutoTokenizer

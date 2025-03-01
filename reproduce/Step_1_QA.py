@@ -11,9 +11,9 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import csv
 from tqdm import trange
 from minirag import MiniRAG, QueryParam
-from minirag.llm import (
+from minirag.llm.hf import (
     hf_model_complete,
-    hf_embedding,
+    hf_embed,
 )
 from minirag.utils import EmbeddingFunc
 from transformers import AutoModel, AutoTokenizer

@@ -25,10 +25,10 @@ def get_args():
     parser = argparse.ArgumentParser(description="MiniRAG")
     parser.add_argument("--model", type=str, default="PHI")
     parser.add_argument("--outputpath", type=str, default="./logs/Default_output.csv")
-    parser.add_argument("--workingdir", type=str, default="./LiHua-World")
-    parser.add_argument("--datapath", type=str, default="./dataset/LiHua-World/data/")
+    parser.add_argument("--workingdir", type=str, default="./Obsidian")
+    parser.add_argument("--datapath", type=str, default="./dataset/Obsidian/data/")
     parser.add_argument(
-        "--querypath", type=str, default="./dataset/LiHua-World/qa/query_set.csv"
+        "--querypath", type=str, default="./dataset/Obsidian/qa/query_set.csv"
     )
     args = parser.parse_args()
     return args

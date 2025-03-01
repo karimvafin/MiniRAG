@@ -4,6 +4,7 @@ from typing import Any, TypedDict, Optional, Union, Literal, Generic, TypeVar
 import os
 import numpy as np
 from .utils import EmbeddingFunc
+from abc import ABCMeta, abstractmethod
 
 TextChunkSchema = TypedDict(
     "TextChunkSchema",

@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
 from minirag import MiniRAG
-from minirag.llm import(
+from minirag.llm.hf import(
 #    gpt_4o_mini_complete,
     hf_embed,
 )

@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from minirag import MiniRAG
 from minirag.llm import (
-    gpt_4o_mini_complete,
+#    gpt_4o_mini_complete,
     hf_embedding,
 )
 from minirag.utils import EmbeddingFunc
@@ -62,8 +62,8 @@ if not os.path.exists(WORKING_DIR):
 
 rag = MiniRAG(
     working_dir=WORKING_DIR,
-    # llm_model_func=hf_model_complete,
-    llm_model_func=gpt_4o_mini_complete,
+    llm_model_func=hf_model_complete,
+    # llm_model_func=gpt_4o_mini_complete,
     llm_model_max_token_size=200,
     llm_model_name=LLM_MODEL,
     embedding_func=EmbeddingFunc(

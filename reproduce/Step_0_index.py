@@ -26,8 +26,8 @@ def get_args():
     parser = argparse.ArgumentParser(description="MiniRAG")
     parser.add_argument("--model", type=str, default="PHI")
     parser.add_argument("--outputpath", type=str, default="./logs/Default_output.csv")
-    parser.add_argument("--workingdir", type=str, default="./Obsidian")
-    parser.add_argument("--datapath", type=str, default="./dataset/Obsidian/data/")
+    parser.add_argument("--workingdir", type=str, default="./obsidian_gtd_vault")
+    parser.add_argument("--datapath", type=str, default="./dataset/obsidian_gtd_vault/data/")
     parser.add_argument(
         "--querypath", type=str, default="./dataset/Obsidian/qa/query_set.csv"
     )
@@ -84,7 +84,7 @@ def find_txt_files(root_path):
     txt_files = []
     for root, dirs, files in os.walk(root_path):
         for file in files:
-            if file.endswith(".txt"):
+            if file.endswith(".md"):
                 txt_files.append(os.path.join(root, file))
     return txt_files
 
@@ -93,5 +93,5 @@ WEEK_LIST = find_txt_files(DATA_PATH)
 for WEEK in WEEK_LIST:
     id = WEEK_LIST.index(WEEK)
     print(f"{id}/{len(WEEK_LIST)}")
-    with open(WEEK) as f:
+    with open(WEEK, "r", encoding="utf-8") as f:
         rag.insert(f.read())

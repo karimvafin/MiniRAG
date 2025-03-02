@@ -130,6 +130,18 @@ def run_experiment(output_path):
     print(f"Experiment data has been recorded in the file: {output_path}")
 
 
-# if __name__ == "__main__":
+def generate_answer(question: str) -> str:
+    try:
+        minirag_answer = (
+            rag.query(question, param=QueryParam(mode="mini"))
+            .replace("\n", "")
+            .replace("\r", "")
+        )
+    except Exception as e:
+        print("Error in minirag_answer", e)
+        minirag_answer = "Error"
 
-run_experiment(OUTPUT_PATH)
+    return minirag_answer
+
+
+# if __name__ == "__main__":

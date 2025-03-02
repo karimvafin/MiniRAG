@@ -1,0 +1,1182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;FIRST PROJECT&quot;">
+  <data key="d0">"PROJECT"</data>
+  <data key="d1">"First Project is mentioned as a link in the text, indicating it might be a project or a location associated with the document."&lt;SEP&gt;"First Project is mentioned as a linked resource in the context of task management."|&gt;"linked resource"&lt;SEP&gt;"First Project is mentioned as an existing link or reference in the text."</data>
+  <data key="d2">chunk-40e05ae774e7042772985eed1552ef71&lt;SEP&gt;chunk-5f4dc6395f3abe847343b40b1ce1789d&lt;SEP&gt;chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;TASK TWO&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Task Two is mentioned as an item to do, suggesting it is an upcoming task or event."</data>
+  <data key="d2">chunk-5f4dc6395f3abe847343b40b1ce1789d</data>
+</node>
+<node id="&quot;THIS.FILE.NAME&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event triggered by referencing a specific file name in the context of another file."&lt;SEP&gt;"this.file.name is the name of the current file being processed, used in queries to retrieve links and tasks."|&lt;SEP&gt;"this.file.name" likely refers to the name of the current file or document being processed."&lt;SEP&gt;"this.file.name represents the name of the current file being processed in the query."&lt;SEP&gt;"this.file.name refers to the name of the current file, used in the context of referencing it elsewhere."&lt;SEP&gt;"this.file.name represents an event where a file name is referenced within the text."</data>
+  <data key="d2">chunk-6b3bb11b2c657e4ec2031cddd6ac39cb&lt;SEP&gt;chunk-5f4dc6395f3abe847343b40b1ce1789d&lt;SEP&gt;chunk-818f575fa398b22149e4824d0c5acb55&lt;SEP&gt;chunk-a8ce68d618705d080bc7cce976331866&lt;SEP&gt;chunk-d7df38c2af275aa1abfee82b5296b263&lt;SEP&gt;chunk-66460812a75efc667c63f98eda98ab85</data>
+</node>
+<node id="&quot;COMPLETED&quot;">
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a&lt;SEP&gt;chunk-a8ce68d618705d080bc7cce976331866</data>
+  <data key="d1">"Completed tasks are those that have been successfully finished."&lt;SEP&gt;"Links and tasks are filtered based on the status 'Completed', indicating tasks that have been successfully finished and are no longer active."&lt;SEP&gt;"Tasks are filtered based on the status 'Completed', indicating tasks that have been successfully finished and are no longer active."</data>
+  <data key="d0">"EVENT"</data>
+</node>
+<node id="&quot;ACTIVE&quot;">
+  <data key="d2">chunk-a8ce68d618705d080bc7cce976331866</data>
+  <data key="d1">"Tasks are filtered based on the status 'Active', indicating ongoing work that requires attention."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;GOD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"God is the central figure of creation, bringing order and life to the world through divine actions."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;DAY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Day represents the cyclical periods of light and darkness, marking time and progression in creation."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;NIGHT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Night follows Day, symbolizing rest and renewal during the creation process."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;EARTH&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Earth is described as the place where life originated and thrives, marked by significant events such as the creation of light and the separation of day and night."&lt;SEP&gt;"Earth is the center of the creation narrative, serving as the foundation upon which all other elements are placed."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255&lt;SEP&gt;chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;HEAVEN&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Heaven represents the celestial realm above Earth, often associated with divine presence and authority."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;SEA&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Sea signifies vast bodies of water that separate and connect different parts of the creation."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;SKY&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Sky represents the atmosphere above Earth, connecting the terrestrial and celestial realms."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;LAND&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Land is the dry, inhabitable surface of Earth, distinct from water and sea."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;WATER&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Water encompasses oceans, rivers, and lakes, providing sustenance and separating land from sky."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;LIGHT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Light symbolizes creation and illumination, breaking the darkness and setting the stage for further development."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;DARKNESS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Darkness represents the absence of light and is contrasted with the presence of light and life."&lt;SEP&gt;"Darkness represents the absence of light, often used to contrast with the creation process and the emergence of life."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255&lt;SEP&gt;chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Tree is introduced as a type of plant, contributing to the landscape and providing shade and sustenance."&lt;SEP&gt;"Tree is mentioned as a form of vegetation, contributing to the diversity of life and ecosystems."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255&lt;SEP&gt;chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;BIRD&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Bird is part of the animal kingdom, showcasing the variety of life forms emerging during the creation process."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;ANIMAL&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Animal represents the diverse range of creatures that populate the earth, from land to sea."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;PLANT&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Plant is a vital component of the ecosystem, providing food and oxygen for the flourishing of life."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Man is the first human figure introduced in the narrative, representing the pinnacle of creation."</data>
+  <data key="d2">chunk-f1edd26fa5209b071e28149216f08255</data>
+</node>
+<node id="&quot;CTO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"CTO department responsible for technology and innovation."</data>
+  <data key="d2">chunk-d7df38c2af275aa1abfee82b5296b263</data>
+</node>
+<node id="&quot;GENERAL MANAGER&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"A person holding the position of General Manager within an organization."</data>
+  <data key="d2">chunk-d7df38c2af275aa1abfee82b5296b263</data>
+</node>
+<node id="&quot;+61 1900 654 321&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Phone number associated with an organization or individual."</data>
+  <data key="d2">chunk-d7df38c2af275aa1abfee82b5296b263</data>
+</node>
+<node id="&quot;THIS FILE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event triggered by the reference to a file in the text."&lt;SEP&gt;"this file refers to the current document being processed."&lt;SEP&gt;"this file likely refers to a specific document or file, possibly within a project management context involving organizational structure and personnel."</data>
+  <data key="d2">chunk-1f3492e47333fdb0b57e26b3f771ba9c&lt;SEP&gt;chunk-d7df38c2af275aa1abfee82b5296b263&lt;SEP&gt;chunk-ce5958af80bc3ade8614f5a66597b092</data>
+</node>
+<node id="&quot;FILE.OUTLINKS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event occurring when outlinks are referenced from a file."&lt;SEP&gt;"An event triggered by referencing outlinks from a file."|&gt;"file outlinks"&lt;SEP&gt;"file.outlinks is a reference to outgoing links from the current file."&lt;SEP&gt;"file.outlinks could represent an organizational structure or department within a company."&lt;SEP&gt;"file.outlinks represents links to other files that the current file references."&lt;SEP&gt;"file.outlinks represents an event where links are generated from a file."</data>
+  <data key="d2">chunk-d7df38c2af275aa1abfee82b5296b263&lt;SEP&gt;chunk-818f575fa398b22149e4824d0c5acb55&lt;SEP&gt;chunk-6b3bb11b2c657e4ec2031cddd6ac39cb&lt;SEP&gt;chunk-66460812a75efc667c63f98eda98ab85</data>
+</node>
+<node id="&quot;FILE.INLINKS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event occurring when inlinks are referenced from a file."&lt;SEP&gt;"An event triggered by referencing inlinks to a file."|&gt;"file inlinks"&lt;SEP&gt;"file.inlinks is a reference to incoming links to the current file."&lt;SEP&gt;"file.inlinks could represent an organizational structure or department within a company."&lt;SEP&gt;"file.inlinks represents links from other files to the current file."&lt;SEP&gt;"file.inlinks represents an event where links are received by a file."</data>
+  <data key="d2">chunk-d7df38c2af275aa1abfee82b5296b263&lt;SEP&gt;chunk-818f575fa398b22149e4824d0c5acb55&lt;SEP&gt;chunk-6b3bb11b2c657e4ec2031cddd6ac39cb&lt;SEP&gt;chunk-66460812a75efc667c63f98eda98ab85</data>
+</node>
+<node id="&quot;FILE.NAME&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"An event triggered by referencing a specific file name."&lt;SEP&gt;"file.name refers to a specific file within a directory or storage location."</data>
+  <data key="d2">chunk-d7df38c2af275aa1abfee82b5296b263&lt;SEP&gt;chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;CTO DEPARTMENT&quot;">
+  <data key="d2">chunk-d7df38c2af275aa1abfee82b5296b263</data>
+  <data key="d1">"The General Manager is responsible for overseeing the CTO department."|&gt;"responsibility"&lt;SEP&gt;"The General Manager oversees the CTO department."|&gt;"responsibility"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SIXTH NIGHT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Sixth Night is mentioned as the first deep night in a sequence of nights, suggesting a recurring pattern or cycle."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;ABUNDANTLY&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Abundantly is used again to emphasize the plentifulness of various elements and creatures in the environment."&lt;SEP&gt;"Abundantly is used to describe the abundance of life and creatures in the environment."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;LIFE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Life is introduced as a recurring theme, representing the existence of various forms of living organisms."&lt;SEP&gt;"Life refers to the state of being alive, emerging from the earth and spreading across the land, signifying the flourishing of creation."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9&lt;SEP&gt;chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;RULE WHALES&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Rule Whales is a placeholder name for a character or species."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;OUR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Our is likely a placeholder for a character or species, referring to a group of beings."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;GATHERED&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Gathered is a term used to describe the act of bringing together or collecting things."&lt;SEP&gt;"Gathered likely refers to collecting or gathering together, possibly in a religious or agricultural context."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9&lt;SEP&gt;chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;SIGNS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Signs refer to marks or symbols that indicate something, possibly celestial bodies or natural phenomena."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;FIRMAMENT&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Firmament is the sky or heaven, separating the land and water, representing the boundaries and structures within the created world."&lt;SEP&gt;"Firmament represents the sky or the heavens, acting as a boundary between earth and space."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9&lt;SEP&gt;chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;GRASS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Grass is mentioned as a type of plant, symbolizing growth and life in the ecosystem."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;ALL&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"All refers to everything or the totality of things, encompassing the diverse elements of the created world."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;WINGS&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Wings are mentioned as a characteristic of some creatures, possibly referring to flight capabilities."&lt;SEP&gt;"Wings suggest flight or movement through the air, often associated with birds or other flying creatures."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9&lt;SEP&gt;chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;LESSER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Lesser indicates smaller or lesser in number or importance, used to describe various categories of creatures."</data>
+  <data key="d2">chunk-94175a191758811a6278e2b6fea3e1a9</data>
+</node>
+<node id="&quot;PHONE&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"A phone number, likely used for communication purposes."&lt;SEP&gt;"Phone number provided for reference."&lt;SEP&gt;"Phone number used for communication within the organization."&lt;SEP&gt;"Phone number used for communication within the organization."|</data>
+  <data key="d2">chunk-843c762e8a3a1843e48593c9177cf632&lt;SEP&gt;chunk-818f575fa398b22149e4824d0c5acb55&lt;SEP&gt;chunk-00d6e4cc8d38b5e36ed65eb0f80becde</data>
+</node>
+<node id="&quot;DEPARTMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Department where the person works within the organization."&lt;SEP&gt;"IT Management department is a part of an organization responsible for managing IT resources."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55&lt;SEP&gt;chunk-00d6e4cc8d38b5e36ed65eb0f80becde</data>
+</node>
+<node id="&quot;POSITION_&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"Position held by the person within the organization."</data>
+  <data key="d2">chunk-00d6e4cc8d38b5e36ed65eb0f80becde</data>
+</node>
+<node id="&quot;TASK ONE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Task One is a pending task marked as completed in the task management system."|&gt;"task status"</data>
+  <data key="d2">chunk-40e05ae774e7042772985eed1552ef71</data>
+</node>
+<node id="&quot;BACKLINKS&quot;">
+  <data key="d2">chunk-40e05ae774e7042772985eed1552ef71&lt;SEP&gt;chunk-6d6f4c6dc480c414d8835a88f190ddfb</data>
+  <data key="d1">"Backlinks is a feature in Obsidian that allows users to link tasks, projects, and meetings with specific people, enhancing collaboration and tracking."&lt;SEP&gt;"Task One has backlinks in the form of related tasks or projects."|&gt;"related tasks, project links"</data>
+  <data key="d0">"EVENT"</data>
+</node>
+<node id="&quot;OUTGOING&quot;">
+  <data key="d2">chunk-40e05ae774e7042772985eed1552ef71</data>
+  <data key="d1">"Task One has outgoing links to other tasks or projects."|&gt;"related tasks, project links"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DESCRIPTION&quot;">
+  <data key="d2">chunk-40e05ae774e7042772985eed1552ef71&lt;SEP&gt;chunk-818f575fa398b22149e4824d0c5acb55&lt;SEP&gt;chunk-6b3bb11b2c657e4ec2031cddd6ac39cb</data>
+  <data key="d1">"Description is a general term referring to the provided text and its context."&lt;SEP&gt;"Description is a general term used to describe the content or purpose of the file."&lt;SEP&gt;"The description provides context about a hypothetical task or project involving the creation of lights and the naming of creatures."|&gt;"task description"</data>
+  <data key="d0">"CONCEPT"</data>
+</node>
+<node id="&quot;APPLICATION DEVELOPMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Application Development is a department or division within an organization, specifically mentioned in the context of the file's structure."&lt;SEP&gt;"Application Development is a department responsible for application development within an organization."</data>
+  <data key="d2">chunk-843c762e8a3a1843e48593c9177cf632&lt;SEP&gt;chunk-6b3bb11b2c657e4ec2031cddd6ac39cb</data>
+</node>
+<node id="&quot;SENIOR DATABASE ADMINISTRATOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Senior Database Administrator is a position title for someone who manages database administration tasks."</data>
+  <data key="d2">chunk-843c762e8a3a1843e48593c9177cf632</data>
+</node>
+<node id="&quot;USER SUPPORT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"User Support is an organization responsible for providing user support services."</data>
+  <data key="d2">chunk-1f3492e47333fdb0b57e26b3f771ba9c</data>
+</node>
+<node id="&quot;HELP DESK TECHNICIAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Help Desk Technician is a position within User Support, dealing with technical issues and customer support."</data>
+  <data key="d2">chunk-1f3492e47333fdb0b57e26b3f771ba9c</data>
+</node>
+<node id="&quot;HABR&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Habr is a Russian tech community website where articles on GTD and other topics are published."&lt;SEP&gt;"Habr is a platform used for sharing articles, tips, and advice related to Obsidian note-taking and management."&lt;SEP&gt;"Habr is a website where the original article was published."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1&lt;SEP&gt;chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563&lt;SEP&gt;chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</node>
+<node id="&quot;EVERNOTE&quot;">
+  <data key="d0">"APPLICATION"</data>
+  <data key="d1">"Evernote is a standard note-taking application used to organize tasks and information."</data>
+  <data key="d2">chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</node>
+<node id="&quot;ONENOTE&quot;">
+  <data key="d0">"APPLICATION"</data>
+  <data key="d1">"OneNote is another standard note-taking application used to organize tasks and information."</data>
+  <data key="d2">chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</node>
+<node id="&quot;OBSIDIAN.MD&quot;">
+  <data key="d0">"APPLICATION"</data>
+  <data key="d1">"Obsidian.md is a Markdown-based note-taking application designed for efficient task management and information storage."</data>
+  <data key="d2">chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</node>
+<node id="&quot;GETTING THINGS DONE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Getting Things Done (GTD) is a methodology developed by David Allen for managing tasks and information."</data>
+  <data key="d2">chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</node>
+<node id="&quot;DAVID ALLEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"David Allen is the author of the GTD methodology and has contributed significantly to personal productivity."&lt;SEP&gt;"David Allen is the creator of the Getting Things Done (GTD) methodology."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563&lt;SEP&gt;chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</node>
+<node id="&quot;GETTING THINGS DONE (GTD)&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"GTD is a methodology for managing tasks and projects using a system of capturing, organizing, and processing information."&lt;SEP&gt;"Getting Things Done (GTD) is a methodology developed by David Allen for managing tasks and information."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563&lt;SEP&gt;chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</node>
+<node id="&quot;OBSIDIAN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Obsidian is a knowledge management tool that allows users to organize and link notes."&lt;SEP&gt;"Obsidian is a note-taking application used for organizing and managing tasks, projects, and notes."&lt;SEP&gt;"Obsidian is a note-taking application used for organizing notes and tasks using various templates and plugins."&lt;SEP&gt;"Obsidian is a note-taking platform used for organizing ideas, tasks, projects, meetings, and references."&lt;SEP&gt;"Obsidian is a note-taking tool that has gained popularity for its flexibility and extensibility through community plugins."&lt;SEP&gt;"Obsidian is a project management and note-taking tool used in the text."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c&lt;SEP&gt;chunk-7bf32428f31d1f8795132b083290974f&lt;SEP&gt;chunk-6d6f4c6dc480c414d8835a88f190ddfb&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826&lt;SEP&gt;chunk-1c54c513664cfb4fead98d5e5f6b2ee1&lt;SEP&gt;chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;WUNDERFUND&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Wunderfund is a company that offers GTD-related services and resources."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;LOGSEQ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Logseq is a knowledge management tool that uses a graph database to link information."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;NOTION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Notion is a platform that combines a note-taking app, task manager, and project management tool into one application."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;REMNOTE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"RemNote is a note-taking app that allows users to create links between notes."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;FOAM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Foam is a knowledge management tool designed for teams, offering features such as collaboration and project management."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;TIDDLYWIKI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"TiddlyWiki is a web-based note-taking tool that allows users to create links between notes."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;BUZZ&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Buzz likely refers to a sound or noise, possibly background chatter or a specific incident mentioned in the text."</data>
+  <data key="d2">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</node>
+<node id="&quot;VAULT OBSIDIAN&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Vault Obsidian is a pre-configured Obsidian vault containing examples and initial data for GTD workflow."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c</data>
+</node>
+<node id="&quot;PAVEL-MLGN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"pavel-mlgn is the creator of the Obsidian GTD Vault, providing a ready-to-use configuration for Obsidian users."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c</data>
+</node>
+<node id="&quot;GTD&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"GTD stands for Getting Things Done, a productivity system for managing tasks and projects effectively."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c</data>
+</node>
+<node id="&quot;TAGS&quot;">
+  <data key="d0">"SOFTWARE FEATURE"</data>
+  <data key="d1">"Tags are a feature provided by the Tags plugin, allowing users to tag and categorize notes."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c</data>
+</node>
+<node id="&quot;TEMPLATES&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Templates are a feature provided by the Templates plugin, enabling users to create custom note templates."&lt;SEP&gt;"Templates is a folder within Obsidian where users can find and use various templates."&lt;SEP&gt;"Templates is the directory where user-defined templates for Obsidian notes are stored."</data>
+  <data key="d2">chunk-6d6f4c6dc480c414d8835a88f190ddfb&lt;SEP&gt;chunk-65d379d068deaa3842ebda3e1bf32d8c&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;BOOKMARKS&quot;">
+  <data key="d0">"SOFTWARE FEATURE"</data>
+  <data key="d1">"Bookmarks are a feature provided by the Bookmarks plugin, allowing users to save and quickly access important notes."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c</data>
+</node>
+<node id="&quot;DATAVIEW&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Dataview is a data visualization tool integrated into Obsidian, allowing users to display and analyze data stored in their notes."&lt;SEP&gt;"Dataview is a plugin for Obsidian that allows for data-driven views of note contents."&lt;SEP&gt;"Dataview is a plugin for Obsidian that allows for the creation of views based on queries to notes."</data>
+  <data key="d2">chunk-6d6f4c6dc480c414d8835a88f190ddfb&lt;SEP&gt;chunk-65d379d068deaa3842ebda3e1bf32d8c&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;CHECKLIST PLUGIN&quot;">
+  <data key="d0">"SOFTWARE FEATURE"</data>
+  <data key="d1">"Checklist Plugin is a plugin for Obsidian that provides checklists functionality."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c</data>
+</node>
+<node id="&quot;REMINDER PLUGIN&quot;">
+  <data key="d0">"SOFTWARE FEATURE"</data>
+  <data key="d1">"Reminder Plugin is a plugin for Obsidian that helps users set reminders for upcoming events."</data>
+  <data key="d2">chunk-65d379d068deaa3842ebda3e1bf32d8c</data>
+</node>
+<node id="&quot;INBOX&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Inbox is a section within Obsidian where users create and store initial notes before further categorization or processing."&lt;SEP&gt;"Inbox is a type of Obsidian note used for capturing ideas, thoughts, plans, and miscellaneous items."&lt;SEP&gt;"inbox is a type of note that represents a collection of tasks or projects to be addressed."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1&lt;SEP&gt;chunk-65d379d068deaa3842ebda3e1bf32d8c&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;PROJECT&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Project is a type of Obsidian note representing a collection of actions or goals within a larger scope."&lt;SEP&gt;"Project signifies a structured series of tasks or actions aimed at achieving a specific goal or outcome, managed within the Obsidian platform."&lt;SEP&gt;"project is a type of note that represents a long-term goal or set of tasks to be completed."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1&lt;SEP&gt;chunk-65d379d068deaa3842ebda3e1bf32d8c&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;TASK&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Task is a type of Obsidian note representing a single action or goal."&lt;SEP&gt;"Task represents a planned action or goal within the Obsidian system, often used to track immediate or future work."&lt;SEP&gt;"task is a type of note that represents a specific action or piece of work to be done."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1&lt;SEP&gt;chunk-65d379d068deaa3842ebda3e1bf32d8c&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;REFERENCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Reference is a type of Obsidian note containing external resources or supplementary information."&lt;SEP&gt;"Reference is a way of categorizing and organizing information in Obsidian, such as using subtypes like Ref-Person or Ref-Instruction."&lt;SEP&gt;"reference is a type of note that represents additional information or resources related to a task or project."</data>
+  <data key="d2">chunk-6d6f4c6dc480c414d8835a88f190ddfb&lt;SEP&gt;chunk-65d379d068deaa3842ebda3e1bf32d8c&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;CHECKLIST&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Checklist is a plugin for Obsidian that helps users organize tasks and projects using tags and groups."</data>
+  <data key="d2">chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;REMINDER&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Reminder is a community plugin for Obsidian that provides reminder functionality, enhancing the user experience."&lt;SEP&gt;"Reminder is a plugin for Obsidian that helps users set reminders for tasks and events."</data>
+  <data key="d2">chunk-6d6f4c6dc480c414d8835a88f190ddfb&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;ATTACHMENTS&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Attachments is the directory where user-uploaded files are stored."</data>
+  <data key="d2">chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;MEETING&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Meeting is a type of Obsidian note representing a scheduled event or gathering."&lt;SEP&gt;"Meeting is a type of event mentioned in the text, such as a planned meeting or gathering."</data>
+  <data key="d2">chunk-6d6f4c6dc480c414d8835a88f190ddfb&lt;SEP&gt;chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</node>
+<node id="&quot;SAM RIVERA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sam Rivera is a user who uses Obsidian to create and manage notes, tasks, and projects."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</node>
+<node id="&quot;ALEX&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Alex is a user who uses Obsidian to create and manage notes, tasks, and projects."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</node>
+<node id="&quot;CONTROL&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Control refers to the management or governance of tasks, projects, and notes within the Obsidian system."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</node>
+<node id="&quot;INTELLIGENCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Intelligence here refers to an unknown entity that requires communication and management within the Obsidian framework."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</node>
+<node id="&quot;FIRST CONTACT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"First Contact is the initial communication or interaction within the Obsidian system with an unknown entity."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</node>
+<node id="&quot;HUMANITY'S RESPONSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Humanity's Response is the collective action taken by users in response to an unknown entity within the Obsidian context."</data>
+  <data key="d2">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Person is a subtype of Reference used to create notes that relate to specific individuals."</data>
+  <data key="d2">chunk-6d6f4c6dc480c414d8835a88f190ddfb</data>
+</node>
+<node id="&quot;FRONTMATTER&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Frontmatter is a feature in Obsidian that allows users to add metadata to their notes, enriching the information and facilitating data analysis."</data>
+  <data key="d2">chunk-6d6f4c6dc480c414d8835a88f190ddfb</data>
+</node>
+<node id="&quot;CTRL + ,&quot;|&gt; &quot;ROLE&quot;">
+  <data key="d0">"THIS COMBINATION OF KEYS IS USED TO OPEN SETTINGS."|&gt; "SETTING ACCESS"</data>
+  <data key="d1">8</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;CTRL + N&quot;|&gt; &quot;ROLE&quot;">
+  <data key="d0">"THIS COMBINATION OF KEYS IS USED TO CREATE A NEW NOTE."|&gt; "NOTE CREATION"</data>
+  <data key="d1">7</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;CTRL + ALT + &lt;-&quot;|&gt; &quot;ROLE&quot;">
+  <data key="d0">"THIS COMBINATION OF KEYS IS USED TO GO BACK."|&gt; "NAVIGATION"</data>
+  <data key="d1">7</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;CTRL + E&quot;|&gt; &quot;ROLE&quot;">
+  <data key="d0">"THIS COMBINATION OF KEYS IS USED TO SWITCH BETWEEN EDITING AND VIEWING MODES."|&gt; "MODE SWITCHING"</data>
+  <data key="d1">7</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;CTRL + O&quot;|&gt; &quot;ROLE&quot;">
+  <data key="d0">"THIS COMBINATION OF KEYS IS USED TO OPEN A QUICK NAVIGATION MENU AND SEARCH FOR NOTE HEADERS."|&gt; "NAVIGATION AND SEARCH"</data>
+  <data key="d1">8</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;CTRL + SHIFT + F&quot;|&gt; &quot;ROLE&quot;">
+  <data key="d0">"THIS COMBINATION OF KEYS IS USED FOR GLOBAL TEXT SEARCH WITHIN NOTES."|&gt; "TEXT SEARCH"</data>
+  <data key="d1">8</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;SAM RIVERA&quot;|&gt; &quot;PERSON&quot;">
+  <data key="d0">"SAM RIVERA IS A USER WHO OFFERS INSIGHT INTO THE USE OF KEYBOARD COMBINATIONS FOR INTERACTING WITH THE OBSIDIAN INTERFACE."|&gt; "USER COMMENTARY"</data>
+  <data key="d1">6</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;ALEX&quot;|&gt; &quot;PERSON&quot;">
+  <data key="d0">"ALEX IS THE LEADER OF THE TEAM WORKING WITH THE UNKNOWN INTELLIGENCE, EMPHASIZING THE SIGNIFICANCE OF FIRST CONTACT."|&gt; "LEADER COMMENTARY"</data>
+  <data key="d1">7</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;CONTROL&quot;|&gt; &quot;CONCEPT&quot;">
+  <data key="d0">"CONTROL REFERS TO THE ABILITY TO MANAGE OR GOVERN, WHICH IS CHALLENGED BY THE UNKNOWN INTELLIGENCE."|&gt; "POWER DYNAMICS"</data>
+  <data key="d1">6</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;INTELLIGENCE&quot;|&gt; &quot;CONCEPT&quot;">
+  <data key="d0">"INTELLIGENCE IS DESCRIBED AS AN ENTITY CAPABLE OF WRITING ITS OWN RULES AND LEARNING TO COMMUNICATE."|&gt; "INTELLIGENCE CONCEPT"</data>
+  <data key="d1">6</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;FIRST CONTACT&quot;|&gt; &quot;EVENT&quot;">
+  <data key="d0">"FIRST CONTACT REPRESENTS THE POTENTIAL INITIAL COMMUNICATION BETWEEN HUMANITY AND AN UNKNOWN INTELLIGENCE."|&gt; "INITIAL CONTACT EVENT"</data>
+  <data key="d1">7</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;HUMANITY'S RESPONSE&quot;|&gt; &quot;EVENT&quot;">
+  <data key="d0">"HUMANITY'S RESPONSE IS THE COLLECTIVE ACTION TAKEN BY ALEX'S TEAM IN RESPONSE TO THE UNKNOWN INTELLIGENCE."|&gt; "COLLECTIVE RESPONSE EVENT"</data>
+  <data key="d1">7</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;OBSIDIAN&quot;|&gt; &quot;ORGANIZATION&quot;">
+  <data key="d0">"OBSIDIAN IS A PLATFORM FOR CREATING, MANAGING, AND COLLABORATING ON DIGITAL NOTES."|&gt; "PLATFORM DESCRIPTION"</data>
+  <data key="d1">8</data>
+  <data key="d2">chunk-fd6f54e86d326c515f939c6caaa3a953</data>
+</node>
+<node id="&quot;CALIDRAW-PLUGIN&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Calidraw-plugin likely refers to a plugin for Calidraw, possibly a drawing software, used within Obsidian."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;DRAWIO-OBSIDIAN&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Drawio-obsidian is a plugin for Draw.io that integrates with Obsidian, allowing visualizations within the platform."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;PLANTUML-OBSIDIAN&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"PlantUML-obsidian is a plugin for PlantUML that integrates with Obsidian, enabling diagramming within the platform."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;MERMAID-DIAGRAMS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Mermaid-Diagrams is a plugin for Mermaid.js diagrams that allows embedding diagrams within Obsidian."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;GRAPH VIEW&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Graph View is a feature in Obsidian that allows visualizing notes as a graph, highlighting connections and dependencies between them."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;GRAPH VIEW COLOR SCHEME&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Graph View Color Scheme refers to a customization option in Obsidian's Graph View, where the color of nodes can be based on certain conditions, such as tags."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;OBSIDIAN TASKS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Obsidian Tasks is a plugin that adds task management capabilities to Obsidian, helping users organize and prioritize tasks."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;DAILY NOTES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Daily Notes is a built-in plugin in Obsidian that supports daily note-taking and can be used for tracking progress and maintaining a personal journal."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;TQ-OBSIDIAN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Tq-obsidian is a plugin that enhances Obsidian's markdown support and provides additional features for creating and managing notes."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;KANBAN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Kanban is a plugin that introduces a Kanban board functionality to Obsidian, aiding in project management and task prioritization."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;OBSIDIAN-TODO-PLUGIN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Obsidian-TODO-Plugin is a plugin that adds todo list functionalities to Obsidian, helping users keep track of tasks and deadlines."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;OBSIDIAN-TASKS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"obsidian-tasks is a plugin that adds task management capabilities to Obsidian, helping users organize and prioritize tasks."</data>
+  <data key="d2">chunk-7bf32428f31d1f8795132b083290974f</data>
+</node>
+<node id="&quot;SPIRIT&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Spirit represents a divine force or essence that plays a crucial role in the creation narrative, overseeing the division of creatures and the establishment of order."</data>
+  <data key="d2">chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;GREATER BEING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Greater Being is the central figure guiding the creation process, emphasizing the role of divine intervention in shaping the universe."&lt;SEP&gt;"Greater Being is the ultimate creator, setting the stage for the creation of life and establishing the rules of existence."&lt;SEP&gt;"Greater Being refers to the ultimate creator figure, setting the stage for the creation of life and establishing the rules of existence."</data>
+  <data key="d2">chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;CREATURE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Creature symbolizes the diverse forms of life that emerge from the earth, reflecting the creativity and diversity of the universe."</data>
+  <data key="d2">chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;DAY AND NIGHT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Day and Night represent the cyclical nature of time, dividing the earth into periods of light and darkness, highlighting the importance of cycles in the creation narrative."</data>
+  <data key="d2">chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;CREATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Creation is the major event described, marking the beginning of the universe and all life, highlighting the transformative power of the Greater Being."&lt;SEP&gt;"Creation is the overarching event narrated, detailing the process of bringing life and structure into existence, showcasing the power and wisdom of the Greater Being."</data>
+  <data key="d2">chunk-f5e8f5e9b6da5a22c2689380c50ff059</data>
+</node>
+<node id="&quot;PASTED IMAGE 20220805181534.PNG&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"A reference to an image file named 'Pasted image 20220805181534.png'."</data>
+  <data key="d2">chunk-6b3bb11b2c657e4ec2031cddd6ac39cb</data>
+</node>
+<node id="&quot;REFERENCE/PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Reference/person likely refers to a person mentioned in the text or a reference to a person in the broader context."</data>
+  <data key="d2">chunk-6b3bb11b2c657e4ec2031cddd6ac39cb</data>
+</node>
+<node id="&quot;SOFTWARE ENGINEER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Software Engineer is a position or role within the Application Development department."</data>
+  <data key="d2">chunk-6b3bb11b2c657e4ec2031cddd6ac39cb</data>
+</node>
+<node id="&quot;TEAM MEETING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A scheduled meeting to discuss and decide on the main topic and cover key information discussed."</data>
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</node>
+<node id="&quot;SAM&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"Sam is an attendee of the Team Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ROBERT&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"Robert is an attendee of the Team Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MARY&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"Mary is an attendee of the Team Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;#MEETING&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"#meeting indicates a scheduled meeting, and #meeting is the identifier for the Team Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;#LINKS&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"#Links contains links to other files, providing additional context for the Team Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;#ATTENDEES&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"#Attendees lists the attendees of the Team Meeting, providing a roster of participants."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;#AGENDA&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"#Agenda outlines the main topic to discuss at the Team Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;#NOTES&quot;">
+  <data key="d2">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+  <data key="d1">"#Notes covers key information discussed during the Team Meeting."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SINGLE ACTION&quot;">
+  <data key="d0">"ACTION"</data>
+  <data key="d1">"Single action is the current pending task mentioned in the text."</data>
+  <data key="d2">chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</node>
+<node id="&quot;NOW&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Now refers to tasks that are currently being worked on."&lt;SEP&gt;"now represents the current time, which is a temporal entity."</data>
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a&lt;SEP&gt;chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</node>
+<node id="&quot;NEXT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Next refers to upcoming tasks that are planned."&lt;SEP&gt;"next represents the upcoming time, which is relative to the current time."</data>
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a&lt;SEP&gt;chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</node>
+<node id="&quot;WAITING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Waiting refers to tasks that are pending or in a waiting state."&lt;SEP&gt;"waiting represents the time when a task is deferred or postponed."</data>
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a&lt;SEP&gt;chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</node>
+<node id="&quot;SOMEDAY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Someday refers to tasks that are yet to be undertaken."&lt;SEP&gt;"someday represents a future time, often used for tasks yet to be scheduled."</data>
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a&lt;SEP&gt;chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</node>
+<node id="&quot;MEETINGS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Meetings refer to scheduled gatherings for discussing tasks and projects."</data>
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</node>
+<node id="&quot;PROJECTS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Projects denote ongoing initiatives or undertakings."</data>
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</node>
+<node id="&quot;TASKS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Tasks represent individual assignments or work items."</data>
+  <data key="d2">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</node>
+<node id="&quot;ALIBABA CLOUD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Alibaba Cloud is the creator and maintainer of Qwen, the AI model."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;THIS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"this refers to the user who provided the text."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;PASTED IMAGE 20220804160208&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Pasted image 20220804160208 refers to a reference to an image within the text."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;QWEN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Qwen is the AI model created by Alibaba Cloud, which is the subject of the provided text."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;POSITION_&quot; PRODUCT MANAGER&quot;">
+  <data key="d0">"ROLE"</data>
+  <data key="d1">"Product Manager is a role within an organization, specifically in the field of product management."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;FILE.OUTLINKS AS &quot;OUTGOING&quot; &quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"file.outlinks AS "OUTGOING" represents an event where outgoing links are generated from a file."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;FILE.INLINKS AS &quot;BACKLINKS&quot; &quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"file.inlinks AS "BACKLINKS" represents an event where incoming links are received by a file."</data>
+  <data key="d2">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</node>
+<node id="&quot;TASK THREE&quot;">
+  <data key="d0">"TASK"</data>
+  <data key="d1">"Task Three is an incomplete task marked for future consideration or execution."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;MORNING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Morning is referenced as part of the day context in a casual note."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;CREEPING&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Creeping likely refers to something growing or spreading, possibly in a biological context."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;FRUITFUL LAND&quot;">
+  <data key="d0">"LOCATION"</data>
+  <data key="d1">"Fruitful land is mentioned as a type of land, possibly fertile or productive."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;BEAST&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Beast refers to wild animals, possibly in a biblical or creationist context."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;LIGHTS&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"Lights likely refers to celestial bodies or artificial lighting, depending on the context."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;MULTIPLY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Multiply is used metaphorically to describe the increase of life forms."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;FOURTH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Fourth is used as a number, possibly in a chronological or ordinal context."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;ONE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"One is used as a number, possibly in a sequential or ordinal context."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;DOMINION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Dominion likely refers to authority or control, possibly over a territory or subject matter."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;CALLED&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Called likely refers to a naming or designation, possibly of species or things."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;KIND&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Kind likely refers to a category or type, possibly of living organisms."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;GREEN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Green likely refers to color or vegetation, possibly describing a state or condition."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;MALE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Male likely refers to gender or sex, possibly of animals or organisms."</data>
+  <data key="d2">chunk-a0b79ddfbee3821fdb3bc8af05eab989</data>
+</node>
+<node id="&quot;IT MANAGEMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"IT Management is an organization responsible for IT management within an unspecified company or institution."</data>
+  <data key="d2">chunk-ce5958af80bc3ade8614f5a66597b092</data>
+</node>
+<node id="&quot;SOFTWARE ARCHITECT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Software Architect is a professional role focused on designing and developing software solutions."</data>
+  <data key="d2">chunk-ce5958af80bc3ade8614f5a66597b092</data>
+</node>
+<edge source="&quot;FIRST PROJECT&quot;" target="&quot;THIS.FILE.NAME&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The current file name is linked to 'First Project', suggesting a connection or reference to this project within the document."</data>
+  <data key="d5">"document reference, project linkage"</data>
+  <data key="d6">chunk-5f4dc6395f3abe847343b40b1ce1789d</data>
+</edge>
+<edge source="&quot;TASK TWO&quot;" target="&quot;THIS.FILE.NAME&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Task Two is mentioned as an item to do, indicating it might be referenced or discussed in relation to the current file or document."</data>
+  <data key="d5">"to-do item, document reference"</data>
+  <data key="d6">chunk-5f4dc6395f3abe847343b40b1ce1789d</data>
+</edge>
+<edge source="&quot;THIS.FILE.NAME&quot;" target="&quot;COMPLETED&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Links and tasks are filtered based on the status 'Completed', indicating tasks that have been successfully finished and are no longer active."&lt;SEP&gt;"Tasks are filtered based on the status 'Completed', indicating tasks that have been successfully finished and are no longer active."</data>
+  <data key="d5">"task completion, completed status"</data>
+  <data key="d6">chunk-a8ce68d618705d080bc7cce976331866</data>
+</edge>
+<edge source="&quot;THIS.FILE.NAME&quot;" target="&quot;ACTIVE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Tasks are filtered based on the status 'Active', indicating ongoing work that requires attention."</data>
+  <data key="d5">"task prioritization, active status"</data>
+  <data key="d6">chunk-a8ce68d618705d080bc7cce976331866</data>
+</edge>
+<edge source="&quot;THIS.FILE.NAME&quot;" target="&quot;FILE.OUTLINKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The current file's outlinks are referenced in its own outlinks field."</data>
+  <data key="d5">"self-reference, metadata"</data>
+  <data key="d6">chunk-66460812a75efc667c63f98eda98ab85</data>
+</edge>
+<edge source="&quot;THIS.FILE.NAME&quot;" target="&quot;FILE.INLINKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The current file's inlinks are referenced in its own inlinks field."</data>
+  <data key="d5">"self-reference, metadata"</data>
+  <data key="d6">chunk-66460812a75efc667c63f98eda98ab85</data>
+</edge>
+<edge source="&quot;GOD&quot;" target="&quot;DAY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"God brings light on the first day, initiating the creation process."</data>
+  <data key="d5">"initiation, divine action"</data>
+  <data key="d6">chunk-f1edd26fa5209b071e28149216f08255</data>
+</edge>
+<edge source="&quot;GENERAL MANAGER&quot;" target="&quot;CTO DEPARTMENT&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"The General Manager is responsible for overseeing the CTO department."|&gt;"responsibility"&lt;SEP&gt;"The General Manager oversees the CTO department."|&gt;"responsibility"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-d7df38c2af275aa1abfee82b5296b263</data>
+</edge>
+<edge source="&quot;THIS FILE&quot;" target="&quot;FILE.OUTLINKS&quot;">
+  <data key="d3">26.0</data>
+  <data key="d4">"Outlinks from the file lead to other files or resources."|&gt;"outgoing links"&lt;SEP&gt;"Outlinks from the file lead to other files."|&gt;"outgoing links"&lt;SEP&gt;"The file is linked out to other files or resources."|&gt;"outgoing links"&lt;SEP&gt;"The file references outlinks from other files."|&gt;"outgoing links"</data>
+  <data key="d5">6&lt;SEP&gt;7</data>
+  <data key="d6">chunk-d7df38c2af275aa1abfee82b5296b263</data>
+</edge>
+<edge source="&quot;THIS FILE&quot;" target="&quot;FILE.INLINKS&quot;">
+  <data key="d3">26.0</data>
+  <data key="d4">"Inlinks to the file come from other files or resources."|&gt;"incoming links"&lt;SEP&gt;"Inlinks to the file come from other files."|&gt;"incoming links"&lt;SEP&gt;"The file is linked into by other files or resources."|&gt;"incoming links"&lt;SEP&gt;"The file references inlinks from other files."|&gt;"incoming links"</data>
+  <data key="d5">6&lt;SEP&gt;7</data>
+  <data key="d6">chunk-d7df38c2af275aa1abfee82b5296b263</data>
+</edge>
+<edge source="&quot;THIS FILE&quot;" target="&quot;USER SUPPORT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Help Desk Technician within User Support is responsible for handling inquiries related to the current file."|&gt;"file processing, support"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-1f3492e47333fdb0b57e26b3f771ba9c</data>
+</edge>
+<edge source="&quot;THIS FILE&quot;" target="&quot;SOFTWARE ARCHITECT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Software Architect role is part of the organizational structure and responsibilities outlined in the file."|&gt;"organizational structure, professional role"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-ce5958af80bc3ade8614f5a66597b092</data>
+</edge>
+<edge source="&quot;THIS FILE&quot;" target="&quot;IT MANAGEMENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"IT Management is mentioned in relation to the organization's structure, suggesting it oversees the Software Architect's role."|&gt;"organizational hierarchy, oversight"</data>
+  <data key="d5">7</data>
+  <data key="d6">chunk-ce5958af80bc3ade8614f5a66597b092</data>
+</edge>
+<edge source="&quot;FILE.OUTLINKS&quot;" target="&quot;FILE.INLINKS&quot;">
+  <data key="d3">42.0</data>
+  <data key="d4">"Both fields in the file relate to links within the file structure, though they refer to different aspects of the file's connections."&lt;SEP&gt;"Outlinks and inlinks are related events occurring simultaneously in the context of the file."|&gt;"related events"&lt;SEP&gt;"Outlinks and inlinks are related events."|&gt;"related events"&lt;SEP&gt;"There is a mutual relationship between file.outlinks and file.inlinks, as they both refer to interactions with other files in the system."&lt;SEP&gt;"There is a reciprocal relationship between file.outlinks and file.inlinks events, as they are part of a system that exchanges links."</data>
+  <data key="d5">"dual self-referential metadata, link structure"&lt;SEP&gt;"interaction, mutual relationship"&lt;SEP&gt;"reciprocal relationship, exchange"&lt;SEP&gt;5</data>
+  <data key="d6">chunk-d7df38c2af275aa1abfee82b5296b263&lt;SEP&gt;chunk-818f575fa398b22149e4824d0c5acb55&lt;SEP&gt;chunk-6b3bb11b2c657e4ec2031cddd6ac39cb&lt;SEP&gt;chunk-66460812a75efc667c63f98eda98ab85</data>
+</edge>
+<edge source="&quot;PHONE&quot;" target="&quot;POSITION_&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Phone numbers may be linked to the positions within the organization."|"employee identification"</data>
+  <data key="d5">7</data>
+  <data key="d6">chunk-00d6e4cc8d38b5e36ed65eb0f80becde</data>
+</edge>
+<edge source="&quot;PHONE&quot;" target="&quot;DEPARTMENT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Phone numbers are typically associated with the departments where people work."</data>
+  <data key="d5">"internal communication"</data>
+  <data key="d6">chunk-00d6e4cc8d38b5e36ed65eb0f80becde</data>
+</edge>
+<edge source="&quot;DEPARTMENT&quot;" target="&quot;POSITION_&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Departments often contain multiple positions, reflecting the organizational structure."|"organizational hierarchy"</data>
+  <data key="d5">8</data>
+  <data key="d6">chunk-00d6e4cc8d38b5e36ed65eb0f80becde</data>
+</edge>
+<edge source="&quot;TASK ONE&quot;" target="&quot;BACKLINKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Task One has backlinks in the form of related tasks or projects."|&gt;"related tasks, project links"</data>
+  <data key="d5">7</data>
+  <data key="d6">chunk-40e05ae774e7042772985eed1552ef71</data>
+</edge>
+<edge source="&quot;TASK ONE&quot;" target="&quot;OUTGOING&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Task One has outgoing links to other tasks or projects."|&gt;"related tasks, project links"</data>
+  <data key="d5">6</data>
+  <data key="d6">chunk-40e05ae774e7042772985eed1552ef71</data>
+</edge>
+<edge source="&quot;TASK ONE&quot;" target="&quot;DESCRIPTION&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The description provides context about a hypothetical task or project involving the creation of lights and the naming of creatures."|&gt;"task description"</data>
+  <data key="d5">5</data>
+  <data key="d6">chunk-40e05ae774e7042772985eed1552ef71</data>
+</edge>
+<edge source="&quot;BACKLINKS&quot;" target="&quot;DESCRIPTION&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Backlinks are related to the description, providing context for the task."|&gt;"contextual references"&lt;SEP&gt;"The description has backlinks to other descriptions or resources."|&gt;"resource references"</data>
+  <data key="d5">2&lt;SEP&gt;4</data>
+  <data key="d6">chunk-40e05ae774e7042772985eed1552ef71</data>
+</edge>
+<edge source="&quot;BACKLINKS&quot;" target="&quot;OUTGOING&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"Outgoing links connect to backlinks, forming a network of related resources."|&gt;"network connections"</data>
+  <data key="d5">1</data>
+  <data key="d6">chunk-40e05ae774e7042772985eed1552ef71</data>
+</edge>
+<edge source="&quot;BACKLINKS&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Person notes can be linked to tasks, projects, and meetings through Backlinks, improving collaboration and tracking."</data>
+  <data key="d5">"collaboration, linking"</data>
+  <data key="d6">chunk-6d6f4c6dc480c414d8835a88f190ddfb</data>
+</edge>
+<edge source="&quot;OUTGOING&quot;" target="&quot;DESCRIPTION&quot;">
+  <data key="d3">3.0</data>
+  <data key="d4">"The description has outgoing links to the file structure or other documents."|&gt;"document references"</data>
+  <data key="d5">3</data>
+  <data key="d6">chunk-40e05ae774e7042772985eed1552ef71</data>
+</edge>
+<edge source="&quot;DESCRIPTION&quot;" target="&quot;PASTED IMAGE 20220804160208&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The description provides context for the Pasted image 20220804160208, linking the textual content to the visual reference."</data>
+  <data key="d5">"contextual link, explanation"</data>
+  <data key="d6">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</edge>
+<edge source="&quot;APPLICATION DEVELOPMENT&quot;" target="&quot;SENIOR DATABASE ADMINISTRATOR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Senior Database Administrator works within the Application Development department."</data>
+  <data key="d5">"job function, organizational structure"</data>
+  <data key="d6">chunk-843c762e8a3a1843e48593c9177cf632</data>
+</edge>
+<edge source="&quot;HABR&quot;" target="&quot;OBSIDIAN.MD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The article mentions the integration of Obsidian.md with GTD, suggesting its effectiveness in managing tasks and information."</data>
+  <data key="d5">"article mention, practical use"</data>
+  <data key="d6">chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</edge>
+<edge source="&quot;OBSIDIAN.MD&quot;" target="&quot;GETTING THINGS DONE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Obsidian.md is integrated with the Getting Things Done (GTD) methodology to provide a flexible system for organizing tasks and information."</data>
+  <data key="d5">"integration, methodological support"</data>
+  <data key="d6">chunk-8c34a32f1a6faf9c0ff04890f7f6b52a</data>
+</edge>
+<edge source="&quot;GETTING THINGS DONE (GTD)&quot;" target="&quot;OBSIDIAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Obsidian incorporates elements of the GTD methodology, allowing users to manage tasks and projects effectively."</data>
+  <data key="d5">"integration, methodology application"</data>
+  <data key="d6">chunk-efa1b0d54c2ccb3af5f88f7e4fa7b563</data>
+</edge>
+<edge source="&quot;OBSIDIAN&quot;" target="&quot;DATAVIEW&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Dataview is a plugin specifically designed to enhance Obsidian functionality, such as creating views based on queries to notes."</data>
+  <data key="d5">"functional integration, plugin support"</data>
+  <data key="d6">chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</edge>
+<edge source="&quot;OBSIDIAN&quot;" target="&quot;CHECKLIST&quot;">
+  <data key="d3">16.0</data>
+  <data key="d4">"Checklist is a plugin that assists users in managing tasks and projects within Obsidian, utilizing tags and groups."</data>
+  <data key="d5">"task management, plugin support"</data>
+  <data key="d6">chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</edge>
+<edge source="&quot;OBSIDIAN&quot;" target="&quot;REMINDER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Reminder helps users set reminders for tasks and events within Obsidian, enhancing their organizational capabilities."</data>
+  <data key="d5">"event management, plugin support"</data>
+  <data key="d6">chunk-4848eecc4582fb4845de22ca3ba8e826</data>
+</edge>
+<edge source="&quot;OBSIDIAN&quot;" target="&quot;MEETING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Obsidian, a project management tool, includes features like reminders and meeting planning functionalities."</data>
+  <data key="d5">"integration, functionality"</data>
+  <data key="d6">chunk-6d6f4c6dc480c414d8835a88f190ddfb</data>
+</edge>
+<edge source="&quot;DATAVIEW&quot;" target="&quot;REMINDER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Reminder plugin uses Dataview for data visualization and integration, enhancing the user experience."</data>
+  <data key="d5">"integration, data visualization"</data>
+  <data key="d6">chunk-6d6f4c6dc480c414d8835a88f190ddfb</data>
+</edge>
+<edge source="&quot;INBOX&quot;" target="&quot;SAM RIVERA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Sam Rivera creates and manages notes in the Inbox section of Obsidian, indicating the importance of the Inbox for organizing initial thoughts and ideas."</data>
+  <data key="d5">"note creation, organization"</data>
+  <data key="d6">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</edge>
+<edge source="&quot;REFERENCE&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Reference serves as a category for creating notes about specific people, which can then be linked to tasks, projects, and meetings."</data>
+  <data key="d5">"category, linking"</data>
+  <data key="d6">chunk-6d6f4c6dc480c414d8835a88f190ddfb</data>
+</edge>
+<edge source="&quot;SAM RIVERA&quot;" target="&quot;INTELLIGENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Sam Rivera is directly involved in the process of communication and management with an unknown entity within the Obsidian system."</data>
+  <data key="d5">"communication, management process"</data>
+  <data key="d6">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</edge>
+<edge source="&quot;ALEX&quot;" target="&quot;FIRST CONTACT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alex and users like Sam Rivera engage in the initial communication and management of tasks and projects related to an unknown entity within the Obsidian system."</data>
+  <data key="d5">"initial interaction, collaborative effort"</data>
+  <data key="d6">chunk-1c54c513664cfb4fead98d5e5f6b2ee1</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;SAM&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Sam is an attendee of the Team Meeting."</data>
+  <data key="d5">"attendance"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;ROBERT&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Robert is an attendee of the Team Meeting."</data>
+  <data key="d5">"attendance"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;MARY&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Mary is an attendee of the Team Meeting."</data>
+  <data key="d5">"attendance"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;#MEETING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"#meeting indicates a scheduled meeting, and #meeting is the identifier for the Team Meeting."</data>
+  <data key="d5">"identifier, scheduling"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;#LINKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"#Links contains links to other files, providing additional context for the Team Meeting."</data>
+  <data key="d5">"contextual information"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;#ATTENDEES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"#Attendees lists the attendees of the Team Meeting, providing a roster of participants."</data>
+  <data key="d5">"participant list"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;#AGENDA&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"#Agenda outlines the main topic to discuss at the Team Meeting."</data>
+  <data key="d5">"agenda item"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;TEAM MEETING&quot;" target="&quot;#NOTES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"#Notes covers key information discussed during the Team Meeting."</data>
+  <data key="d5">"meeting notes"</data>
+  <data key="d6">chunk-036b9d3fc10f1742aa067f3d7ab6b3f5</data>
+</edge>
+<edge source="&quot;SINGLE ACTION&quot;" target="&quot;NOW&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"Single action is the current pending task, which is tracked under 'now'. "</data>
+  <data key="d5">"task tracking, pending actions"</data>
+  <data key="d6">chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</edge>
+<edge source="&quot;SINGLE ACTION&quot;" target="&quot;NEXT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The next action refers to the subsequent task after the current 'Single action', indicating a sequence of tasks."</data>
+  <data key="d5">"task sequence, pending actions"</data>
+  <data key="d6">chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</edge>
+<edge source="&quot;SINGLE ACTION&quot;" target="&quot;WAITING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Waiting tasks are tasks deferred until a later time, hence the relationship between Single action and waiting."</data>
+  <data key="d5">"task deferment, pending actions"</data>
+  <data key="d6">chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</edge>
+<edge source="&quot;SINGLE ACTION&quot;" target="&quot;SOMEDAY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tasks scheduled for the future are referred to as 'someday', thus indicating a relationship between Single action and tasks scheduled for the future."</data>
+  <data key="d5">"future scheduling, pending actions"</data>
+  <data key="d6">chunk-5ea01f3e2806ed1a029a8271eb9eb89d</data>
+</edge>
+<edge source="&quot;NOW&quot;" target="&quot;TASKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tasks that are now being worked on are the immediate focus of attention and effort."</data>
+  <data key="d5">"current focus, priority"</data>
+  <data key="d6">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</edge>
+<edge source="&quot;NEXT&quot;" target="&quot;TASKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Tasks that are planned for the future are part of the ongoing efforts to achieve project goals."</data>
+  <data key="d5">"future planning, progression"</data>
+  <data key="d6">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</edge>
+<edge source="&quot;WAITING&quot;" target="&quot;TASKS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Tasks in a waiting state require further action or consideration, indicating a delay in their progress."</data>
+  <data key="d5">"delayed action, status update"</data>
+  <data key="d6">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</edge>
+<edge source="&quot;SOMEDAY&quot;" target="&quot;TASKS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Tasks yet to be undertaken are part of the long-term plans and may be revisited at a later time."</data>
+  <data key="d5">"long-term planning, potential action"</data>
+  <data key="d6">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</edge>
+<edge source="&quot;MEETINGS&quot;" target="&quot;TASKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Meetings often involve discussions and planning of tasks, which can lead to the creation of new tasks or updates on existing ones."</data>
+  <data key="d5">"planning, follow-up"</data>
+  <data key="d6">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</edge>
+<edge source="&quot;PROJECTS&quot;" target="&quot;TASKS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Projects can generate multiple tasks, and the completion of tasks within a project contributes to the overall success of the project."</data>
+  <data key="d5">"initiative generation, progress tracking"</data>
+  <data key="d6">chunk-ac3652368466138d13ff8a76c7c6fc7a</data>
+</edge>
+<edge source="&quot;ALIBABA CLOUD&quot;" target="&quot;QWEN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alibaba Cloud is responsible for creating Qwen, the AI model mentioned in the text."</data>
+  <data key="d5">"creator, creation"</data>
+  <data key="d6">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</edge>
+<edge source="&quot;THIS&quot;" target="&quot;QWEN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The user (this) interacts with Qwen, the AI model, which is reflected in the text."</data>
+  <data key="d5">"interaction, reference"</data>
+  <data key="d6">chunk-818f575fa398b22149e4824d0c5acb55</data>
+</edge>
+</graph></graphml>

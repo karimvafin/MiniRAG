@@ -70,7 +70,7 @@ rag = MiniRAG(
     embedding_func=EmbeddingFunc(
         embedding_dim=384,
         max_token_size=1000,
-        func=lambda texts: hf_embedding(
+        func=lambda texts: hf_embed(
             texts,
             tokenizer=AutoTokenizer.from_pretrained(EMBEDDING_MODEL),
             embed_model=AutoModel.from_pretrained(EMBEDDING_MODEL),

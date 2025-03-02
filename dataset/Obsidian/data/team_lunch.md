@@ -1,0 +1,1 @@
+A team lunch is planned for October 27th at 12:30 PM at a local restaurant to celebrate the successful completion of Phase 1 of the project. This is a great opportunity to relax and acknowledge everyone’s hard work. Please RSVP by October 25th.

@@ -1,0 +1,1 @@
+Sarah will be on vacation from November 1st to November 7th. During this time, her responsibilities will be temporarily reassigned to other team members. Please ensure all handovers are completed by October 31st to avoid disruptions.

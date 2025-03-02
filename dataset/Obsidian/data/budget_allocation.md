@@ -1,0 +1,1 @@
+The marketing budget has been increased by 15% for Q4, with a focus on digital campaigns. This includes social media ads, email marketing, and influencer partnerships. The goal is to boost brand visibility and drive sales during the holiday season. A detailed breakdown will be shared in the next finance meeting.

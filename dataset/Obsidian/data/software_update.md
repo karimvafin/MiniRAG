@@ -1,0 +1,1 @@
+A company-wide software update is scheduled for November 5th. This update includes new features and security enhancements. All employees must ensure their systems are backed up and ready for the update by November 4th. IT support will be available for any issues.

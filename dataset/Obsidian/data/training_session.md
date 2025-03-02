@@ -1,0 +1,1 @@
+A training session on the new software tool, which will streamline project management, is planned for October 30th from 2 PM to 4 PM. Attendance is mandatory for all team members, as this tool will be critical for future projects. Materials will be provided beforehand.

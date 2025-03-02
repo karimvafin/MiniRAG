@@ -1,0 +1,1 @@
+John joined the team as a junior developer on October 20th. His onboarding process, including training and introductions to ongoing projects, will be completed by October 28th. Please welcome him and provide support as he gets up to speed.

@@ -1,0 +1,1 @@
+Performance reviews are due by November 20th. Managers should prepare their evaluations and schedule one-on-one meetings with their team members. The goal is to provide constructive feedback and set objectives for the next quarter.

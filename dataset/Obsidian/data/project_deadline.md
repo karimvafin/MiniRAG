@@ -1,0 +1,1 @@
+The project deadline is set for November 15th. All team members need to submit their parts by November 10th for final review. Any delays could impact the overall timeline, so it’s crucial to stay on track. The final presentation to the client is scheduled for November 18th.
